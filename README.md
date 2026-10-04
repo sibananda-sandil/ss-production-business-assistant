@@ -12,7 +12,6 @@ The system is designed around a simple interface: the business owner communicate
 
 ## Architecture
 
-```text
 Telegram Bot
      ↓
 Make.com — Watch Updates
