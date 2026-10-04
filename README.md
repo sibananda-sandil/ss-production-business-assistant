@@ -87,6 +87,32 @@ Technology Stack
 - JSON — structured data exchange
 - APIs / Webhooks — system integration
 
+5. Project Screenshots
+
+ # Workflow Architecture
+ The complete automation workflow connecting Telegram, Gemini, Make.com, and Google Sheets.
+ ![Workflow](Screenshots/Workflow)
+
+ # Owner Update
+ The business owner can send a natural-language business update to the assistant.
+ ![Owner Update](Screenshots/OwnerUpdate)
+
+ # Automated Response
+ The assistant confirms that the business update has been received and recorded.
+ ![Response](Screenshots/Response)
+
+ # Google Sheets Update
+ The extracted business information is stored as structured data in Google Sheets.
+ ![Google Sheets Update](Screenshots/GooglesheetUpdate)
+
+ # Business Question
+ The owner can ask questions about the recorded business information.
+ ![Owner Request](Screenshots/OwnerRequest)
+
+ # Business Data Retrieval
+ The workflow retrieves the stored business data before generating the response.
+ ![Database Scan](Screenshots/DatabaseScan)
+
 5. What This Project Demonstrates
 - Multi-step workflow automation
 - LLM-based classification
