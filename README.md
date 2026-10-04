@@ -82,7 +82,7 @@ Due Date	Payment due date
 Notes	Additional information
 
 
-5. Owner Requests
+4. Owner Requests
    
 Stores owner questions and the generated responses.
 Technology Stack
@@ -121,7 +121,7 @@ Technology Stack
  ![Database Scan](Screenshots/DatabaseScan)
 
 
-5. What This Project Demonstrates
+6. What This Project Demonstrates
    
 - Multi-step workflow automation
 - LLM-based classification
@@ -133,7 +133,7 @@ Technology Stack
 - Designing an automation around a real business use case
 
 
-6. Project Context
+7. Project Context
    
 This project was built around SS Production, a small paper-plate manufacturing business, as a practical environment for experimenting with business process automation.
 The goal was not simply to build an AI chatbot, but to connect an AI interface with structured business records and automate a real operational workflow.
@@ -151,7 +151,7 @@ Potential future improvements include:
 - More advanced access and permission controls
 
 
-8. Status
+9. Status
 
 Prototype / Personal Project
 Built and tested as a practical AI automation project.
