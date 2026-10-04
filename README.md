@@ -36,6 +36,7 @@ Google Sheets
 Telegram Confirmation / Answer
 
 Main Workflows
+
 1. Business Update
 The owner can send a natural-language business update through Telegram.
 The workflow:
@@ -45,6 +46,7 @@ The workflow:
 4. Parses the JSON response.
 5. Stores the extracted event in Google Sheets.
 6. Sends a confirmation back through Telegram.
+
 2. Business Question
 The owner can also ask questions about the recorded business information.
 The workflow:
@@ -55,6 +57,7 @@ The workflow:
 5. Generates a response.
 6. Stores the request and response.
 7. Sends the answer back through Telegram.
+
 3. Unknown Request
 If the system cannot classify the message as a business update or business question, it asks the owner to provide a clearer request.
 Data Structure
@@ -92,9 +95,11 @@ What This Project Demonstrates
 - Routing different types of requests
 - Connecting AI processing with business data
 - Designing an automation around a real business use case
+
 Project Context
 This project was built around SS Production, a small paper-plate manufacturing business, as a practical environment for experimenting with business process automation.
 The goal was not simply to build an AI chatbot, but to connect an AI interface with structured business records and automate a real operational workflow.
+
 Future Improvements
 Potential future improvements include:
 - Additional business event types
@@ -104,6 +109,7 @@ Potential future improvements include:
 - Additional business reporting
 - Integration with other business systems
 - More advanced access and permission controls
+
 Status
 Prototype / Personal Project
 Built and tested as a practical AI automation project.
