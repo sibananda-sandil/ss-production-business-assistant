@@ -41,25 +41,25 @@ Main Workflows
    
 The owner can send a natural-language business update through Telegram.
 The workflow:
-1. Receives the Telegram message.
-2. Uses Gemini to classify the request.
-3. Extracts structured business information.
-4. Parses the JSON response.
-5. Stores the extracted event in Google Sheets.
-6. Sends a confirmation back through Telegram.
+  Receives the Telegram message.
+  Uses Gemini to classify the request.
+  Extracts structured business information.
+  Parses the JSON response.
+  Stores the extracted event in Google Sheets.
+  Sends a confirmation back through Telegram.
 
 
 2. Business Question
    
 The owner can also ask questions about the recorded business information.
 The workflow:
-1. Receives the question through Telegram.
-2. Retrieves business records from Google Sheets.
-3. Aggregates the records.
-4. Sends the relevant data to Gemini.
-5. Generates a response.
-6. Stores the request and response.
-7. Sends the answer back through Telegram.
+  Receives the question through Telegram.
+  Retrieves business records from Google Sheets.
+  Aggregates the records.
+  Sends the relevant data to Gemini.
+  Generates a response.
+  Stores the request and response.
+  Sends the answer back through Telegram.
 
 
 3. Unknown Request
@@ -68,19 +68,20 @@ If the system cannot classify the message as a business update or business quest
 Data Structure
 The system uses Google Sheets as the current data store.
 Business Events
-Field	Purpose
-Event ID	Identifies the event
-Timestamp	Records when the event occurred
-Event Type	Type of business event
-Customer	Customer information
-Product	Product involved
-Quantity	Quantity involved
-Unit	Unit of measurement
-Amount	Transaction amount
-Payment Status	Payment state
-Due Date	Payment due date
-Notes	Additional information
-
+```
+ Field	              Purpose
+Event ID	        Identifies the event
+Timestamp	     Records when the event occurred
+Event Type	   Type of business event
+Customer	        Customer information
+Product	        Product involved
+Quantity	         Quantity involved
+Unit	             Unit of measurement
+Amount	         Transaction amount
+Payment Status      Payment state
+Due Date	          Payment due date
+Notes	       Additional information
+```
 
 4. Owner Requests
    
