@@ -77,7 +77,7 @@ Due Date	Payment due date
 Notes	Additional information
 
 
-Owner Requests
+4. Owner Requests
 Stores owner questions and the generated responses.
 Technology Stack
 - Make.com — workflow automation and orchestration
@@ -86,7 +86,8 @@ Technology Stack
 - Google Sheets — structured business data storage
 - JSON — structured data exchange
 - APIs / Webhooks — system integration
-What This Project Demonstrates
+
+5. What This Project Demonstrates
 - Multi-step workflow automation
 - LLM-based classification
 - Structured information extraction
@@ -96,11 +97,11 @@ What This Project Demonstrates
 - Connecting AI processing with business data
 - Designing an automation around a real business use case
 
-Project Context
+6. Project Context
 This project was built around SS Production, a small paper-plate manufacturing business, as a practical environment for experimenting with business process automation.
 The goal was not simply to build an AI chatbot, but to connect an AI interface with structured business records and automate a real operational workflow.
 
-Future Improvements
+7. Future Improvements
 Potential future improvements include:
 - Additional business event types
 - More robust validation of extracted data
@@ -110,6 +111,6 @@ Potential future improvements include:
 - Integration with other business systems
 - More advanced access and permission controls
 
-Status
+8. Status
 Prototype / Personal Project
 Built and tested as a practical AI automation project.
