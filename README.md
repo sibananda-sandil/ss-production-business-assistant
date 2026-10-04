@@ -11,7 +11,7 @@ This project explores how AI and workflow automation can convert natural-languag
 The system is designed around a simple interface: the business owner communicates through **Telegram**, while the automation handles classification, data extraction, storage, and responses in the background.
 
 ## Architecture
-
+```
 Telegram Bot
      ↓
 Make.com — Watch Updates
@@ -33,7 +33,7 @@ Iterator  Owner Request
 Google Sheets
   ↓
 Telegram Confirmation / Answer
-
+```
 Main Workflows
 
 1. Business Update
